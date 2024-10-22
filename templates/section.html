@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ section.title }}</title>
+    <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
+    <!-- MathJax for LaTeX rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <main>
+        <h1>{{ section.title }}</h1>
+        {{ section.content | safe }}
+
+        <ul>
+        {% for page in section.pages %}
+            <li>
+                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                <span>({{ page.date | date(format="%B %d, %Y") }})</span>
+            </li>
+        {% endfor %}
+        </ul>
+    </main>
+    <nav>
+        <ul>  
+            <li>[<a href="/">Home</a>]</li>
+            <li>[<a href="/now">Now</a>]</li>
+            <li>[<a href="https://microdosinglucidity.com">Essays</a>]</li>
+            <li>[<a href="/blog">Blog</a>]</li>
+            <li>[<a href="/shelf">Shelf</a>]</li>
+            <li>[<a href="https://twitter.com/yudhister_">Twitter</a>]</li>
+            <li>[<a href="https://curius.app/yudhister-joel-kumar_">Curius</a>]</li>
+        </ul>
+    </nav>
+</body>
+</html>

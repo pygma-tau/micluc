@@ -1,0 +1,119 @@
+body {
+    font-family: serif;
+    line-height: 1.25;
+    // background-color: #f0f0f0;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // min-height: 100vh;
+    margin: 0;
+    // padding: 20px;
+}
+
+main {
+    // background-color: white;
+    // padding: 40px;
+    // border-radius: 8px;
+    // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-right: 40px;
+}
+
+nav {
+    width: 50px;
+    padding-left: 20px;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// .footnotes {
+//     ol {
+//       padding-left: 1.5em;
+//       counter-reset: footnote;
+//     }
+  
+//     li {
+//       display: flex;
+//       align-items: flex-start;
+//       margin-bottom: 1em;
+//       counter-increment: footnote;
+  
+//     //   &::before {
+//     //     content: counter(footnote) ".";
+//     //     margin-right: 0.5em;
+//     //     flex-shrink: 0;
+//     //     min-width: 1.5em;
+//     //     text-align: right;
+//     //   }
+  
+//       p {
+//         margin: 0;
+//         padding-left: 0.5em;
+//       }
+//     }
+//   }
+  
+//   .footnote-ref {
+//     vertical-align: super;
+//     font-size: smaller;
+//     text-decoration: none;
+//   }
+  
+//   .footnote-backref {
+//     font-size: 0.8em;
+//     margin-left: 0.3em;
+//     text-decoration: none;
+//   }
+
+// .footnotes {
+//     .inline-footnote {
+//       display: flex;
+//       align-items: flex-start;
+  
+//       &::before {
+//         content: attr(id);
+//         margin-right: 0.5em;
+//         font-size: 0.8em;
+//         line-height: 1.6;
+//       }
+//     }
+//   }

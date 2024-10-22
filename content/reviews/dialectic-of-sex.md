@@ -6,7 +6,7 @@ path: "dialectic-of-sex"
 
 Broadly, I see three separate threads in this work: an attempt to situate second-wave feminism in a historical context, a pseudo-rehabilitation of Freudianism in service of the sexual dialectic, and an argument for the necessity of reproductive substitutes to achieve true equality. 
 
-The first of these, while interesting, is not something I have much to say about. The second primarily exists to justify the third—"exactly because Freud was correct in identifying the psychosexual underpinnings of society[^1], then freedom can only be achieved by eliminating these shackles on mankind." The third germinated the cyberfeminist movement of the 1990s, which itself spawned CCRU and modern accelerationism (via Sadie Plant). 
+The first of these, while interesting, is not something I have much to say about. The second primarily exists to justify the third—"exactly because Freud was correct in identifying the psychosexual underpinnings of society,[^1] then freedom can only be achieved by eliminating these shackles on mankind." The third germinated the cyberfeminist movement of the 1990s, which itself spawned CCRU and modern accelerationism (via Sadie Plant). 
 
 If you adopt this framing, Firestone's choice of the dialectic as a *structure* is in large part pragmatic, given she is trying to replicate Marx's totalizing analysis of class but as applied to sex. Adopting Freudianism is necessary to ensure that the nature of sex-oppresion *subsumes* that of class-oppression by establishing exploitation within a nuclear family as a more fundamental primitive than exploitation in the workplace. Race-oppresion is dealt with similarly.[^2]
 

@@ -5,4 +5,4 @@ path: "ethnonationalism"
 draft: true
 ---
 
-
+- stop living in the past. the world has always high
